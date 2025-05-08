@@ -66,6 +66,7 @@ hyprpaper
 hyprpicker
 hyprpolkitagent
 hyprshade
+hyprshot
 hyprsunset
 hyprutils
 hyprwayland-scanner
