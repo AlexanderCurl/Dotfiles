@@ -53,7 +53,9 @@ gvfs
 gvfs-mtp
 gvfs-nfs
 gvfs-smb
+hdparm
 helvum
+heroic-games-launcher-bin
 htop
 hyprcursor
 hypridle
@@ -91,6 +93,7 @@ layer-shell-qt5
 less
 lib32-gamemode
 lib32-libpipewire
+lib32-lm_sensors
 lib32-mangohud
 lib32-nvidia-utils
 lib32-opencl-nvidia
@@ -107,6 +110,7 @@ libva-utils
 linux-firmware
 linux-zen
 linux-zen-headers
+lm_sensors
 logrotate
 lshw
 lsp-plugins-lv2
@@ -121,6 +125,7 @@ mgba-qt
 microsoft-edge-stable-bin
 mission-center
 mpv
+mqtt-explorer-bin
 nano
 neovim
 nextcloud-client
@@ -155,6 +160,7 @@ plasma-integration
 plymouth
 pngcrush
 polychromatic-git
+popsicle-bin
 prismlauncher
 protonup-qt-bin
 python-flask
@@ -187,6 +193,7 @@ stress-ng
 swaybg
 swaylock
 system-config-printer
+tailscale
 teams-for-linux
 teamspeak
 timeshift
@@ -225,7 +232,6 @@ xdg-utils
 xorg-xhost
 xorg-xlsclients
 xorg-xwayland
-xsane-git
 xwaylandvideobridge-git
 ytmdesktop-bin
 zip
