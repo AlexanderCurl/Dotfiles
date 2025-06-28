@@ -25,6 +25,7 @@ cups-browsed
 cups-pk-helper
 devtools
 discord
+dosfstools
 doublecmd-qt5
 downgrade
 dracula-gtk-theme
@@ -83,8 +84,10 @@ iwd
 jdk21-openjdk
 jellyfin-media-player
 jre17-openjdk
+kdeconnect
 kitty
 kpat
+ksshaskpass
 kvantum
 kvantum-theme-dracula-git
 lan-mouse
@@ -141,6 +144,7 @@ nwg-displays
 nwg-look
 obs-backgroundremoval
 opencl-nvidia
+opendeck
 openrazer-daemon
 openssh
 optipng
@@ -187,7 +191,6 @@ slurp
 smartmontools
 starship
 steam-native-runtime
-streamdeck-ui
 streamlink-twitch-gui-bin
 stress-ng
 swaybg
@@ -209,7 +212,9 @@ unrar
 unzip
 vesktop-bin
 vim
+virt-manager
 vkd3d
+vscodium-bin
 vulkan-tools
 w3m
 waybar
@@ -226,6 +231,7 @@ wl-clipboard
 wlogout
 wmctrl
 wpa_supplicant
+x11-ssh-askpass
 xdg-desktop-portal-hyprland
 xdg-user-dirs
 xdg-utils
