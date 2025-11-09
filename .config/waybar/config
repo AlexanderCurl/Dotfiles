@@ -55,7 +55,7 @@
     "custom/launcher": {
         "tootltip": false,
         "format" : " 󰣇",
-        "on-click": "rofi",
+        "on-click": "rofi -show drun -n",
         "on-click-right": "killall rofi"
     },
 
