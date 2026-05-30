@@ -33,13 +33,13 @@ hl.window_rule({
 local float_classes = {
     "^(confirmreset)$",
     "^(feh)$",
-    "^(file%-roller)$",
+    "^(file-roller)$",
     "^(Lxappearance)$",
     "^(splash)$",
-    "^(xfce4%-appearance%-settings)$",
-    "^(org%.kde%.polkit%-kde%-authentication%-agent%-1)$",
+    "^(xfce4-appearance-settings)$",
+    "^(org.kde.polkit-kde-authentication-agent-1)$",
     "^(pavucontrol)$",
-    "^(Picture%-in%-Picture)$",
+    "^(Picture-in-Picture)$",
     "^(Viewnior)$",
     "^(file_progress)$",
     "^(confirm)$",
@@ -47,6 +47,7 @@ local float_classes = {
     "^(download)$",
     "^(notification)$",
     "^(error)$",
+    "^(polychromatic)$",
 }
 
 for _, class in ipairs(float_classes) do
@@ -174,7 +175,7 @@ hl.window_rule({
     match = {
         title = "^(Network Connections)$"
     },
-    size = "400 600"
+    size = "400, 600"
 })
 
 hl.window_rule({
@@ -182,7 +183,7 @@ hl.window_rule({
     match = {
         title = "^(btop)$"
     },
-    size = "980 530"
+    size = "980, 530"
 })
 
 hl.window_rule({
@@ -190,7 +191,7 @@ hl.window_rule({
     match = {
         title = "^(Volume Control)$"
     },
-    size = "800 600"
+    size = "800, 600"
 })
 
 hl.window_rule({
@@ -198,7 +199,7 @@ hl.window_rule({
     match = {
         title = "^(feh)$"
     },
-    size = "1280 720"
+    size = "1280, 720"
 })
 
 hl.window_rule({
@@ -206,7 +207,7 @@ hl.window_rule({
     match = {
         class = "^(download)$"
     },
-    size = "800 600"
+    size = "800, 600"
 })
 
 hl.window_rule({
@@ -214,7 +215,7 @@ hl.window_rule({
     match = {
         title = "^(Open File)$"
     },
-    size = "800 600"
+    size = "800, 600"
 })
 
 hl.window_rule({
@@ -222,15 +223,15 @@ hl.window_rule({
     match = {
         title = "^(Save File)$"
     },
-    size = "800 600"
+    size = "800, 600"
 })
 
 hl.window_rule({
     name = "size-bitwarden",
     match = {
-        class = "^(brave%-nngceckbapebfimnlniiiahkandclblb%-Default)$"
+        class = "^(brave-nngceckbapebfimnlniiiahkandclblb-Default)$"
     },
-    size = "800 800"
+    size = "800, 800"
 })
 
 hl.window_rule({
@@ -238,7 +239,7 @@ hl.window_rule({
     match = {
         class = "^(polychromatic)$"
     },
-    size = "1280 1000"
+    size = "1280, 1000"
 })
 
 hl.window_rule({
@@ -246,7 +247,7 @@ hl.window_rule({
     match = {
         title = "^(.*wants to open.*)$"
     },
-    size = "1280 1000"
+    size = "1280, 1000"
 })
 
 hl.window_rule({
@@ -254,7 +255,7 @@ hl.window_rule({
     match = {
         title = "^(.*wants to save.*)$"
     },
-    size = "1280 1000"
+    size = "1280, 1000"
 })
 
 hl.window_rule({
@@ -262,15 +263,15 @@ hl.window_rule({
     match = {
         title = "^(TeamSpeak)$"
     },
-    size = "1200 800"
+    size = "1200, 800"
 })
 
 hl.window_rule({
     name = "size-picture-in-picture",
     match = {
-        title = "^(Picture%-in%-picture)$"
+        title = "^(Picture-in-picture)$"
     },
-    size = "580 330"
+    size = "580, 330"
 })
 
 ----------------------------------------------------------------
@@ -282,7 +283,7 @@ hl.window_rule({
     match = {
         title = "^(btop)$"
     },
-    move = "3% 35"
+    move = "3%, 35"
 })
 
 hl.window_rule({
@@ -290,7 +291,7 @@ hl.window_rule({
     match = {
         title = "^(Network Connections)$"
     },
-    move = "70% 35"
+    move = "70%, 35"
 })
 
 hl.window_rule({
@@ -298,15 +299,15 @@ hl.window_rule({
     match = {
         title = "^(Volume Control)$"
     },
-    move = "75 44%"
+    move = "75, 44%"
 })
 
 hl.window_rule({
     name = "move-picture-in-picture",
     match = {
-        title = "^(Picture%-in%-picture)$"
+        title = "^(Picture-in-picture)$"
     },
-    move = "1900 1050"
+    move = "1900, 1050"
 })
 
 ----------------------------------------------------------------
@@ -317,11 +318,11 @@ local centered_classes = {
     "^(vesktop)$",
     "^(discord)$",
     "^(slack)$",
-    "^(teams%-for%-linux)$",
+    "^(teams-for-linux)$",
     "^(polychromatic)$",
     "^(YouTube Music Desktop App)$",
-    "^(brave%-irc%.ax%-servers%.hu__%-Default)$",
-    "^(brave%-nngceckbapebfimnlniiiahkandclblb%-Default)$",
+    "^(brave-irc.ax-servers.hu__-Default)$",
+    "^(brave-nngceckbapebfimnlniiiahkandclblb-Default)$",
 }
 
 for _, class in ipairs(centered_classes) do
@@ -435,7 +436,7 @@ hl.window_rule({
 hl.window_rule({
     name = "workspace-teams",
     match = {
-        class = "^(teams%-for%-linux)$"
+        class = "^(teams-for-linux)$"
     },
     workspace = "6"
 })
@@ -443,9 +444,17 @@ hl.window_rule({
 hl.window_rule({
     name = "workspace-thelounge",
     match = {
-        class = "^(brave%-irc%.ax%-servers%.hu__%-Default)$"
+        class = "^(brave-irc.ax-servers.hu__-Default)$"
     },
     workspace = "3"
+})
+
+hl.window_rule({
+    name = "workspace-prism",
+    match = {
+        class = "^org.prismlauncher.Prismlauncher)$"
+    },
+    workspace = "1"
 })
 
 ----------------------------------------------------------------
@@ -481,7 +490,7 @@ hl.window_rule({
 hl.window_rule({
     name = "picture-in-picture",
     match = {
-        title = "^(Picture%-in%-picture)$"
+        title = "^(Picture-in-picture)$"
     },
     float = true,
     pin = true

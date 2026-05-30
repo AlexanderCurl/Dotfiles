@@ -37,14 +37,6 @@ hl.workspace_rule({ workspace = "4", monitor = "DP-1", persistent = "1"})
 hl.workspace_rule({ workspace = "5", monitor = "DP-1", persistent = "1"})
 hl.workspace_rule({ workspace = "6", monitor = "DP-1", persistent = "1"})
 
----------------------
----- MY PROGRAMS ----
----------------------
-
-local terminal    = "kitty"
-local fileManager = "dolphin"
-local menu        = "dms ipc call spotlight toggle"
-
 -------------------
 ---- AUTOSTART ----
 -------------------
@@ -60,9 +52,10 @@ hl.on("hyprland.start", function ()
    hl.exec_cmd("systemctl --user import-environment WAYLAND_DISPLAY XDG_CURRENT_DESKTOP")
    hl.exec_cmd("easyeffects --gapplication-service")
    hl.exec_cmd("polychromatic-tray-applet")
-   hl.exec_cmd("hyprctl dispatch workspace 1")
+   hl.exec_cmd("hyprctl dispatch 'hl.dsp.focus({ workspace = '1' })'")
    hl.exec_cmd("nextcloud --background")
    hl.exec_cmd("kdeconnect-indicator")
+   hl.exec_cmd("opendeck --hide")
    hl.exec_cmd("xrandr --output DP-2 --primary")
    hl.exec_cmd("xrandr -s 2560x144@165")
  end)
